@@ -75,7 +75,7 @@ subgraph node1 [triggerOnEvent]
 end
 ```
 
-<SwmSnippet path="/services/src/main/java/org/keycloak/services/resources/admin/ClientResource.java" line="190" repo-id="Z2l0aHViJTNBJTNBa2V5Y2xvYWslM0ElM0FrZXljbG9haw==">
+<SwmSnippet path="/services/src/main/java/org/keycloak/services/resources/admin/ClientResource.java" line="190" repo-id="Z2l0aHViJTNBJTNBa2V5Y2xvYWslM0ElM0Fzd2ltbWlv">
 
 ---
 
@@ -97,7 +97,7 @@ In `getClient`, we kick things off by triggering a client policy event using the
 
 ## Evaluating client policy conditions and actions
 
-<SwmSnippet path="/services/src/main/java/org/keycloak/services/clientpolicy/DefaultClientPolicyManager.java" line="48" repo-id="Z2l0aHViJTNBJTNBa2V5Y2xvYWslM0ElM0FrZXljbG9haw==">
+<SwmSnippet path="/services/src/main/java/org/keycloak/services/clientpolicy/DefaultClientPolicyManager.java" line="48" repo-id="Z2l0aHViJTNBJTNBa2V5Y2xvYWslM0ElM0Fzd2ltbWlv">
 
 ---
 
@@ -148,7 +148,7 @@ flowchart TD
     click node9 openCode "services/src/main/java/org/keycloak/services/clientpolicy/executor/HolderOfKeyEnforcerExecutor.java:113:114"
 ```
 
-<SwmSnippet path="/services/src/main/java/org/keycloak/services/clientpolicy/executor/HolderOfKeyEnforcerExecutor.java" line="83" repo-id="Z2l0aHViJTNBJTNBa2V5Y2xvYWslM0ElM0FrZXljbG9haw==">
+<SwmSnippet path="/services/src/main/java/org/keycloak/services/clientpolicy/executor/HolderOfKeyEnforcerExecutor.java" line="83" repo-id="Z2l0aHViJTNBJTNBa2V5Y2xvYWslM0ElM0Fzd2ltbWlv">
 
 ---
 
@@ -194,7 +194,7 @@ flowchart TD
 
 </SwmSnippet>
 
-<SwmSnippet path="/services/src/main/java/org/keycloak/services/clientpolicy/executor/HolderOfKeyEnforcerExecutor.java" line="145" repo-id="Z2l0aHViJTNBJTNBa2V5Y2xvYWslM0ElM0FrZXljbG9haw==">
+<SwmSnippet path="/services/src/main/java/org/keycloak/services/clientpolicy/executor/HolderOfKeyEnforcerExecutor.java" line="145" repo-id="Z2l0aHViJTNBJTNBa2V5Y2xvYWslM0ElM0Fzd2ltbWlv">
 
 ---
 
@@ -222,7 +222,7 @@ flowchart TD
 
 ## Finalizing and returning the client representation
 
-<SwmSnippet path="/services/src/main/java/org/keycloak/services/resources/admin/ClientResource.java" line="197" repo-id="Z2l0aHViJTNBJTNBa2V5Y2xvYWslM0ElM0FrZXljbG9haw==">
+<SwmSnippet path="/services/src/main/java/org/keycloak/services/resources/admin/ClientResource.java" line="197" repo-id="Z2l0aHViJTNBJTNBa2V5Y2xvYWslM0ElM0Fzd2ltbWlv">
 
 ---
 

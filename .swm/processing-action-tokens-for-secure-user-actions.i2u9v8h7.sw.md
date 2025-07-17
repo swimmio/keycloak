@@ -127,7 +127,7 @@ subgraph node2 [doesAuthenticationSessionFromCookieMatchOneFromToken]
 end
 ```
 
-<SwmSnippet path="/services/src/main/java/org/keycloak/services/resources/LoginActionsService.java" line="551" repo-id="Z2l0aHViJTNBJTNBa2V5Y2xvYWslM0ElM0FrZXljbG9haw==">
+<SwmSnippet path="/services/src/main/java/org/keycloak/services/resources/LoginActionsService.java" line="551" repo-id="Z2l0aHViJTNBJTNBa2V5Y2xvYWslM0ElM0Fzd2ltbWlv">
 
 ---
 
@@ -241,7 +241,7 @@ In `handleActionToken`, we kick off by verifying the incoming action token: pars
 
 </SwmSnippet>
 
-<SwmSnippet path="/services/src/main/java/org/keycloak/authentication/actiontoken/AbstractActionTokenHandler.java" line="98" repo-id="Z2l0aHViJTNBJTNBa2V5Y2xvYWslM0ElM0FrZXljbG9haw==">
+<SwmSnippet path="/services/src/main/java/org/keycloak/authentication/actiontoken/AbstractActionTokenHandler.java" line="98" repo-id="Z2l0aHViJTNBJTNBa2V5Y2xvYWslM0ElM0Fzd2ltbWlv">
 
 ---
 
@@ -259,7 +259,7 @@ We create a new session for the client from the token and make sure it ends afte
 
 </SwmSnippet>
 
-<SwmSnippet path="/services/src/main/java/org/keycloak/services/resources/LoginActionsService.java" line="652" repo-id="Z2l0aHViJTNBJTNBa2V5Y2xvYWslM0ElM0FrZXljbG9haw==">
+<SwmSnippet path="/services/src/main/java/org/keycloak/services/resources/LoginActionsService.java" line="652" repo-id="Z2l0aHViJTNBJTNBa2V5Y2xvYWslM0ElM0Fzd2ltbWlv">
 
 ---
 
@@ -278,7 +278,7 @@ Back in `handleActionToken`, after starting a fresh session if needed, we check 
 
 ## Validating Session Consistency
 
-<SwmSnippet path="/services/src/main/java/org/keycloak/services/resources/LoginActionsServiceChecks.java" line="256" repo-id="Z2l0aHViJTNBJTNBa2V5Y2xvYWslM0ElM0FrZXljbG9haw==">
+<SwmSnippet path="/services/src/main/java/org/keycloak/services/resources/LoginActionsServiceChecks.java" line="256" repo-id="Z2l0aHViJTNBJTNBa2V5Y2xvYWslM0ElM0Fzd2ltbWlv">
 
 ---
 
@@ -317,11 +317,11 @@ We compare session IDs, and if there's a fork, we try to recover the parent sess
 
 ### Fetching Client Details and Permissions
 
-See <SwmLink doc-title="Retrieving client details flow" repo-id="Z2l0aHViJTNBJTNBa2V5Y2xvYWslM0ElM0FrZXljbG9haw==" path="/.swm/retrieving-client-details-flow.dw2kzbd0.sw.md">[Retrieving client details flow](https://staging.swimm.cloud/repos/Z2l0aHViJTNBJTNBa2V5Y2xvYWslM0ElM0FrZXljbG9haw%3D%3D/docs/dw2kzbd0)</SwmLink>
+See <SwmLink doc-title="Retrieving client details flow" repo-id="Z2l0aHViJTNBJTNBa2V5Y2xvYWslM0ElM0Fzd2ltbWlv" path="/.swm/retrieving-client-details-flow.dw2kzbd0.sw.md">[Retrieving client details flow](https://staging.swimm.cloud/repos/Z2l0aHViJTNBJTNBa2V5Y2xvYWslM0ElM0FrZXljbG9haw%3D%3D/docs/dw2kzbd0)</SwmLink>
 
 ### Switching to the Correct Session Context
 
-<SwmSnippet path="/services/src/main/java/org/keycloak/services/resources/LoginActionsServiceChecks.java" line="280" repo-id="Z2l0aHViJTNBJTNBa2V5Y2xvYWslM0ElM0FrZXljbG9haw==">
+<SwmSnippet path="/services/src/main/java/org/keycloak/services/resources/LoginActionsServiceChecks.java" line="280" repo-id="Z2l0aHViJTNBJTNBa2V5Y2xvYWslM0ElM0Fzd2ltbWlv">
 
 ---
 
@@ -372,7 +372,7 @@ flowchart TD
   node7 --> node6
 ```
 
-<SwmSnippet path="/services/src/main/java/org/keycloak/services/resources/LoginActionsService.java" line="656" repo-id="Z2l0aHViJTNBJTNBa2V5Y2xvYWslM0ElM0FrZXljbG9haw==">
+<SwmSnippet path="/services/src/main/java/org/keycloak/services/resources/LoginActionsService.java" line="656" repo-id="Z2l0aHViJTNBJTNBa2V5Y2xvYWslM0ElM0Fzd2ltbWlv">
 
 ---
 
@@ -393,7 +393,7 @@ Back in `handleActionToken`, if the session doesn't match, we remove the old ses
 
 </SwmSnippet>
 
-<SwmSnippet path="/services/src/main/java/org/keycloak/services/resources/LoginActionsService.java" line="664" repo-id="Z2l0aHViJTNBJTNBa2V5Y2xvYWslM0ElM0FrZXljbG9haw==">
+<SwmSnippet path="/services/src/main/java/org/keycloak/services/resources/LoginActionsService.java" line="664" repo-id="Z2l0aHViJTNBJTNBa2V5Y2xvYWslM0ElM0Fzd2ltbWlv">
 
 ---
 
@@ -415,7 +415,7 @@ Back in `handleActionToken`, after starting a new session, we update the session
 
 </SwmSnippet>
 
-<SwmSnippet path="/services/src/main/java/org/keycloak/services/resources/LoginActionsService.java" line="673" repo-id="Z2l0aHViJTNBJTNBa2V5Y2xvYWslM0ElM0FrZXljbG9haw==">
+<SwmSnippet path="/services/src/main/java/org/keycloak/services/resources/LoginActionsService.java" line="673" repo-id="Z2l0aHViJTNBJTNBa2V5Y2xvYWslM0ElM0Fzd2ltbWlv">
 
 ---
 
